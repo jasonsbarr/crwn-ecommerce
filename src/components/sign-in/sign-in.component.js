@@ -1,4 +1,7 @@
+import { useEffect } from "react";
+import { getRedirectResult } from "firebase/auth";
 import {
+  auth,
   signInWithGooglePopup,
   createUserDocumentFromAuth,
 } from "../../utils/firebase.utils";
